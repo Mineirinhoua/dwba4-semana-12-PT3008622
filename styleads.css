@@ -1,0 +1,36 @@
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tads {
+  font-family: arial;
+}
+
+.titulo {
+  text-align: center;
+  font-family: arial;
+}
+
+.cc {
+  text-align: center;
+  font-family: arial;
+  border: 2px solid rgb(196, 196, 196);
+}
+
+td, th {
+  border: 1px solid rgb(196, 196, 196);
+  padding: 6px;
+}
+
+th {
+  text-align: center;
+  background-color: rgb(72, 163, 75);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+tr:nth-child(even){background-color: #e7e7e7;}
+
+tr:hover {background-color: rgb(196, 196, 196);}
